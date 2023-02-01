@@ -76,6 +76,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConnectedProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectedProduct.Designer.cs">
+      <DependentUpon>ConnectedProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Depatment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ConnectedProduct.resx">
+      <DependentUpon>ConnectedProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Depatment.resx">
       <DependentUpon>Depatment.cs</DependentUpon>
     </EmbeddedResource>
